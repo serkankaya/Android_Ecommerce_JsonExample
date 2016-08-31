@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.host.e_ticaret.ayarlarim">
+    tools:showIn="@layout/activity_ayarlarim">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adGuncelleTxt"
+        android:hint="Adınızı Giriniz"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/soyadGuncelleTxt"
+        android:hint="Soyadınızı Giriniz"
+        android:layout_below="@+id/adGuncelleTxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/adGuncelleTxt" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mailGuncelleTxt"
+        android:hint="Mailinizi Giriniz"
+        android:layout_below="@+id/telGuncelleTxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/telGuncelleTxt" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/telGuncelleTxt"
+        android:hint="Telefonunuzu Giriniz"
+        android:layout_below="@+id/soyadGuncelleTxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/soyadGuncelleTxt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yeniSifreGuncelleTxt"
+        android:hint="Yeni Şifrenizi Giriniz"
+        android:layout_below="@+id/mailGuncelleTxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/mailGuncelleTxt"
+        android:password="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yeniSifreTekrarGuncelleTxt"
+        android:hint="Yeni Şifrenizi Tekrar Giriniz"
+        android:layout_below="@+id/yeniSifreGuncelleTxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button4"
+        android:password="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:id="@+id/button4"
+        android:onClick="guncelle"
+        android:layout_below="@+id/yeniSifreTekrarGuncelleTxt"
+        android:layout_alignEnd="@+id/adGuncelleTxt"
+        android:background="@drawable/bilgiguncellebtn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ayarlar Ekranı"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

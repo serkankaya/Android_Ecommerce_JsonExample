@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.host.myapplication.MainActivity">
+    <item
+        android:id="@+id/sepetim"
+        android:orderInCategory="100"
+        android:title="@string/sepetim"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/adreslerim"
+        android:orderInCategory="100"
+        android:title="@string/adreslerim"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ayarlarim"
+        android:orderInCategory="100"
+        android:title="@string/ayarlarim"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cikis"
+        android:orderInCategory="100"
+        android:title="@string/cikis"
+        app:showAsAction="never" />
+</menu>

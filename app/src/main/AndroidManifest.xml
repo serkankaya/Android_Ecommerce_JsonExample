@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.host.e_ticaret">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".girisEkrani" />
+        <activity
+            android:name=".anaKategoriler"
+            android:label="@string/title_activity_ana_kategoriler"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".adreslerim"
+            android:label="@string/adreslerim"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".ayarlarim"
+            android:label="@string/ayarlarim"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".kayit" />
+        <activity
+            android:name=".altKategoriler"
+            android:label="@string/title_activity_alt_kategoriler"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".adresEkle" />
+        <activity
+            android:name=".urunListesi"
+            android:label="@string/title_activity_urun_listesi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".urunDetay"
+            android:label="@string/title_activity_urun_detay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sepet"
+            android:label="@string/title_activity_sepet"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-Ticaret</string>
+    <string name="adreslerim">My address</string>
+    <string name="ayarlarim">Settings</string>
+    <string name="cikis">Logout</string>
+    <string name="sepetim">My Cart</string>
+    <string name="title_activity_">Main Categories</string>
+    <string name="title_activity_alt_kategoriler">Sub-Categories</string>
+    <string name="title_activity_ana_kategoriler">Main Categories</string>
+    <string name="title_activity_sepet">My Cart</string>
+    <string name="title_activity_urun_detay"> Product Details</string>
+    <string name="title_activity_urun_listesi">List of Products</string>
+</resources>

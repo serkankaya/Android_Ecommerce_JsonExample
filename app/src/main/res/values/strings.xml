@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">E-Ticaret</string>
+    <string name="title_activity_ana_kategoriler">Ana Kategoriler</string>
+    <string name="title_activity_">Ana Kategoriler</string>
+    <string name="title_activity_alt_kategoriler">Alt Kategoriler</string>
+    <string name="sepetim">Sepetim</string>
+    <string name="adreslerim">Adreslerim</string>
+    <string name="ayarlarim">Ayarlarım</string>
+    <string name="cikis">Çıkış</string>
+    <string name="title_activity_urun_listesi">Ürünler Listesi</string>
+    <string name="title_activity_urun_detay">Ürün Detayları</string>
+    <string name="title_activity_sepet">Sepetim</string>
+
+</resources>
