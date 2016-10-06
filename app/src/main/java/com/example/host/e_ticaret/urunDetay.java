@@ -51,13 +51,16 @@ public class urunDetay extends AppCompatActivity {
         String ebaslik=getIntent().getExtras().getString("urunBaslik","");
         String efiyat="Fiyat : "+getIntent().getExtras().getString("Fiyat","");
         String ekaciklama="Kısa Açıklama : "+getIntent().getExtras().getString("kisaAciklama","");
-        String edetay="Detay : "+getIntent().getExtras().getString("detay","");
+        String edetay="<html><head>"
+                + "<style type=\"text/css\">body{color: black;}"
+                + "</style></head>"
+                + "<body>"+"Detay : "+getIntent().getExtras().getString("detay","")+ "</body></html>";
 
 
         urunBaslik.setText(ebaslik);
         urunFiyat.setText(efiyat+" TL");
         urunKisaAciklama.setText(ekaciklama);
-        detay.loadData(edetay,"text/html","UTF-8");
+        detay.loadDataWithBaseURL(null, edetay, "text/html", "UTF-8", null);
         HashMap<String, String> url_maps = new HashMap<>();
 
         /*
