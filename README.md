@@ -9,4 +9,4 @@ Bu proje android tarafında json ile basit bir e ticaret uygulamasının işlevi
 	Üyenin ayarlarını,
 	Adres Düzenlemesini içermektedir.
 	
-	
+![alt text](ext.jpeg "Project Photo 1")
