@@ -17,3 +17,6 @@ Bu proje android tarafında json ile basit bir e ticaret uygulamasının işlevi
 ![alt text](ext5.jpeg "Project Photo 6")
 ![alt text](ext6.jpeg "Project Photo 7")
 ![alt text](ext7.jpeg "Project Photo 8")
+
+
+MIT License
